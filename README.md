@@ -12,7 +12,7 @@ python3 http_server.py
 
 2. Run a Clojure REPL on your favourite editor and evaluate the comments in the `proxy_concurrency.clj` file.
 
-3. Open your browser and go to `http://localhost:8080/` to see the proxy server in action.
+3. Open your browser and go to `http://localhost:8001/` to see the proxy server in action.
 
 ## License
 
