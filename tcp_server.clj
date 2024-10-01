@@ -73,6 +73,7 @@
                   (when-let [server-channel @channel]
                     (.close server-channel)))})))
 
+;TODO implement way to free connections after a set timeout
 (def upstream-channel-comp
   (fn []
     {:free-channels   (ref #{})
